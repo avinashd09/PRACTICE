@@ -1,12 +1,13 @@
-public class Parent {
-void show()
+public  class Parent {
+    
+    void show()
 {
 System.out.println("parents show");
 } }   
 class Child extends Parent
 {
 @Override
-void show(){System.out.println("childss show");}
+void show(){System.out.println("childs show");}
 }
 class Main{
 
