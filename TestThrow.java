@@ -5,7 +5,7 @@ public class TestThrow {
     if(age>=18){
     System.out.println("YOU CAN VOTE");
     }
-    else
+    else 
     {
         throw new ArithmeticException("NOT VALID");
    
